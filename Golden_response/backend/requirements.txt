@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+asyncpg
+aiosqlite
+alembic
+pydantic
+pydantic-settings
+python-dotenv
+slowapi
+aiosmtplib
+email-validator
+httpx
+pytest
+ruff
+black

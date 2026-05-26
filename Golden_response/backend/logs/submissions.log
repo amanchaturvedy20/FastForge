@@ -1,0 +1,6 @@
+[2026-05-26 13:53:29,975] INFO in contact: Contact form submission saved: Name=Bob Marley, Email=bob@example.com
+[2026-05-26 13:53:31,898] ERROR in contact: Email notification failed for contact: bob@example.com. Error: (535, '5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2beb56d68adsm138170755ad.32 - gsmtp')
+[2026-05-26 13:53:31,961] INFO in newsletter: Newsletter subscription saved: Email=bob_newsletter@example.com
+[2026-05-26 13:57:09,175] INFO in newsletter: Newsletter subscription saved: Email=user_1779784029@example.com
+[2026-05-26 13:57:09,199] INFO in contact: Contact form submission saved: Name=Test User, Email=test@example.com
+[2026-05-26 13:57:11,365] ERROR in contact: Email notification failed for contact: test@example.com. Error: (535, '5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2beb591d102sm114164935ad.81 - gsmtp')

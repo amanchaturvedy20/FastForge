@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Startup</title>
+    <meta name="description" content="Fast modern startup website">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/form.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">Startup</div>
+            <button id="hamburger">☰</button>
+            <ul id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero fade-in">
+        <div class="container">
+            <h1>Modern FastAPI Startup Website</h1>
+            <p>Production-ready responsive business solution.</p>
+            <a href="#contact" class="btn">Book Demo</a>
+        </div>
+    </section>
+
+    <section id="services" class="fade-in">
+        <div class="container">
+            <h2>Services</h2>
+            <div id="services-grid" class="grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="fade-in">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div id="testimonials-grid" class="grid">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" name="honeypot" hidden>
+                <input type="text" name="full_name" placeholder="Full Name" required>
+                <input type="email" name="business_email" placeholder="Business Email" required>
+                <input type="text" name="phone_number" placeholder="Phone Number" required>
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+</body>
+</html>

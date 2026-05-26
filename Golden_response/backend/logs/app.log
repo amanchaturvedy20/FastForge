@@ -1,0 +1,12 @@
+[2026-05-26 13:53:29,830] INFO in main: GET /api/health 200 0.0052s
+[2026-05-26 13:53:31,900] INFO in main: POST /api/contact 200 1.9417s
+[2026-05-26 13:53:31,961] INFO in main: POST /api/newsletter 200 0.0146s
+[2026-05-26 13:57:09,103] INFO in main: GET /api/health 200 0.0072s
+[2026-05-26 13:57:09,116] INFO in main: GET /api/services 200 0.0021s
+[2026-05-26 13:57:09,128] INFO in main: GET /api/testimonials 200 0.0065s
+[2026-05-26 13:57:09,176] INFO in main: POST /api/newsletter 200 0.039s
+[2026-05-26 13:57:11,367] INFO in main: POST /api/contact 200 2.1842s
+[2026-05-26 13:57:31,866] INFO in main: GET / 404 0.0013s
+[2026-05-26 13:57:31,977] INFO in main: GET /favicon.ico 404 0.001s
+[2026-05-26 13:57:45,599] INFO in main: GET /api/services 200 0.003s
+[2026-05-26 13:57:45,603] INFO in main: GET /api/testimonials 200 0.0036s
