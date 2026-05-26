@@ -232,20 +232,20 @@ When server starts, check all required variables are present — if something mi
 
 ## 11. LOGGING AND MONITORING
 
-- Use Python logging properly — structured format
-- Every API request should be logged — method, path, status, how long it took
-- Log every form submission — but don't log sensitive stuff like passwords
-- Log every email send — success or failure both
-- If any unhandled error comes — log full stack trace
+- Use Python logging properly - structured format
+- Every API request should be logged - method, path, status, how long it took
+- Log every form submission - but don't log sensitive stuff like passwords
+- Log every email send - success or failure both
+- If any unhandled error comes - log full stack trace
 - Separate log files: `app.log`, `errors.log`, `submissions.log`
 
 ---
 
 ## 12. TESTING AND CODE QUALITY
 
-- pytest + httpx — to test all APIs
-- ruff / black — code formatting and linting
-- pre-commit hooks — so bad code doesn't go in git
+- pytest + httpx - to test all APIs
+- ruff / black - code formatting and linting
+- pre-commit hooks - so bad code doesn't go in git
 
 ---
 
