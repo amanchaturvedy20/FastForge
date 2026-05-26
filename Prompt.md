@@ -6,10 +6,10 @@ So basically I am a developer who knows Python well and I want to build my own b
 
 The project should include:
 
-Clean professional UI with smooth animations
-FastAPI backend with proper REST APIs
-Contact form that saves data in DB and sends me email
-SEO-friendly so it comes good on Google search
+Clean professional UI with smooth animations,
+FastAPI backend with proper REST APIs,
+Contact form that saves data in DB and sends me email,
+SEO-friendly so it comes good on Google search,
 Everything runs on Docker so I can deploy it on any server
 
 ---
