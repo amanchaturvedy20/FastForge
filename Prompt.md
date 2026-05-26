@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-So basically I am a developer who knows Python well and I want to build my own business website. For backend I will use FastAPI and for frontend simple HTML, CSS, JavaScript — no React or anything. The site should look clean and professional like a proper startup website, load fast, and everything should work properly on mobile also.
+So basically I am a developer who knows Python well and I want to build my own business website. For backend I will use FastAPI and for frontend simple HTML, CSS, JavaScript - no React or anything. The site should look clean and professional like a proper startup website, load fast, and everything should work properly on mobile also.
 
 The project should include:
 
